@@ -21,6 +21,8 @@ public class TestDemo {
 		WebDriver driver = new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 		driver.get("https://rahulshettyacademy.com");
 		Assert.assertTrue(driver.getTitle().matches("Selenium, API Testing, Software Testing & More QA Tutorials | Rahul Shetty Academy"));
+		System.out.println("LOSER");
+		
 	}
 	
 	
